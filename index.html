@@ -209,7 +209,8 @@
                     <ul class="contacts-list list-reset flex">
                         <li class="contacts-item flex contacts-item-adress">
                             <strong class="contacts-item-caption">Visit us</strong>
-                            <p class="contacts-item-text">Duis autem vel eum iriure dolor in hendrerit in vulputate velit.</p>
+                            <p class="contacts-item-text">Duis autem vel eum iriure dolor in hendrerit in vulputate
+                                velit.</p>
                         </li>
                         <li class="contacts-item flex contacts-item-phone">
                             <strong class="contacts-item-caption">Call us</strong>
@@ -225,8 +226,42 @@
                 </adress>
             </div>
         </section>
-        <section class="join-us" id="join-us">
+        <section class="join-us section-offset" id="join-us">
+            <div class="container join-us-container">
+                <h2 class="section-title join-us-title">Join us</h2>
+                <p class="section-descr join-us-descr">Take control of your paid subscriptions today!</p>
+                <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+                    <div class="form-top flex">
+                        <div class="form-left flex">
+                            <input class="form-input" type="text" name="name" placeholder="Name" required>
+                            <input class="form-input" type="email" name="email" placeholder="E-mail" required>
+                            <input class="form-input" type="tel" name="phone" placeholder="Phone" required>
+                            <select class="form-select" name="country">
+                                <option value="Country" disabled selected>Country</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                                <option value="United States">United States</option>
+                                <option value="France">France</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Estonia">Estonia</option>
+                            </select>
+                        </div>
+                        <div class="form-right">
+                            <textarea class="form-textarea" name="comment" placeholder="Comment"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-bottom flex">
+                        <div class="form-wrapper flex">
+                            <button class="btn btn-reset form-btn">Get started</button>
+                            <label class="form-check">
+                                <input type="checkbox" required>
+                                I agree with the <a href="#">user agreement</a>
+                            </label>
+                        </div>
+                    </div>
+                </form>
 
+            </div>
         </section>
     </main>
 

@@ -1,26 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-* {
-  margin: 0 auto;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-img {
-  max-width: 100%;
-}
-
 @font-face {
   font-family: 'OpenSans';
   src: local('OpenSans-Regular'),
@@ -50,6 +27,29 @@ img {
   font-weight: 600;
   font-style: normal;
   font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
 }
 
 body {
@@ -532,4 +532,102 @@ body {
 
 .social-item:not(:last-child) {
   margin-right: 33px;
+}
+
+/* join us */
+
+.join-us {
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.join-us-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.join-us-descr {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.form-top {
+  margin-bottom: 19px;
+}
+
+.form-input {
+  padding: 16px 28px;
+  width: 251px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid #dadada;
+  border-radius: 50px;
+}
+
+.form-select {
+  padding: 16px 28px;
+  width: 251px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid #dadada;
+  border-radius: 50px;
+}
+
+.form-textarea {
+  width: 100%;
+  height: 100%;
+  padding: 16px 28px;
+  box-sizing: border-box;
+  border: 1px solid #dadada;
+  border-radius: 20px;
+  resize: none;
+}
+
+.form-left {
+  width: 48%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+
+.form-right {
+  width: 48%;
+}
+
+.form-wrapper {
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-bottom {
+  margin: 0;
+  justify-content: flex-end;
+}
+
+.form-btn {
+  min-width: 230px;
+  margin-bottom: 9px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 50px;
+}
+
+.form-check {
+  font-size: 12px;
+  line-height: 16px;
+  color: #787878;
+}
+
+.form-check input {
+  margin-right: 8px;
+}
+
+.form-check a {
+  color: #3172b9;
+  border-bottom: 1px solid #3172b9;
 }
