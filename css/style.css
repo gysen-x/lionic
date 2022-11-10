@@ -159,7 +159,7 @@ body {
   background-color: var(--white-color);
 }
 
-.header__link {
+.nav__link {
   position: relative;
   font-weight: 600;
   font-size: 15px;
@@ -169,7 +169,7 @@ body {
   transition: outline-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.header__link::after {
+.nav__link::after {
   content: '';
   position: absolute;
   left: 0;
@@ -180,19 +180,19 @@ body {
   transition: background-color 0.3s ease-in-out;
 }
 
-.header__link:focus {
+.nav__link:focus {
   outline-color: var(--blue-color-2);
 }
 
-.header__link:hover {
+.nav__link:hover {
   color: var(--blue-color-2);
 }
 
-.header__link:active .header__link::after {
+.nav__link:active .nav__link::after {
   background-color: black;
 }
 
-.header__link:active {
+.nav__link:active {
   outline-color: transparent;
 }
 
@@ -209,7 +209,7 @@ body {
   margin-right: 57px;
 }
 
-.header__list-item:not(:last-child) {
+.nav__list-item:not(:last-child) {
   margin-right: 52px;
 }
 
